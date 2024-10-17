@@ -1,0 +1,84 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+
+.head {
+  /* TODO */
+  animation-name: image-animation-example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+.body {
+  /* TODO */
+  animation-name: image-animation-example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
+}
+
+.left.hand {
+  /* TODO */
+  animation-name: image-animation-example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+.right.hand {
+  /* TODO */
+  animation-name: image-animation-example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+.left.foot {
+  /* TODO */
+  animation-name: image-animation-example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+.right.foot {
+  /* TODO */
+  animation-name: image-animation-example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes image-animation-example {
+  0% {
+    border-radius: 0;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+
+  25% {
+    transform: translateY(-100px) scale(1.1); /* Jump up */
+    opacity: 1;
+  }
+
+  50% {
+    border-radius: 100px;
+    transform: translateY(0) rotate(180deg) scale(1);
+    opacity: 0.5; /* Mid-air effect */
+  }
+
+  75% {
+    transform: translateY(-100px) scale(1.1); /* Jump up again */
+    opacity: 1;
+  }
+
+  100% {
+    border-radius: 0;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
